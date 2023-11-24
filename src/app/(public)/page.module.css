@@ -1,0 +1,145 @@
+.section1{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid_section1{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.grid_txt_section1{
+    width: 40%;
+    height: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.img_section1{
+    background-image:
+        linear-gradient(45deg,#0249592f,#02495967),
+        url(../../../public/medicoEpaciente.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 45%;
+    height: 430px;
+    border-radius: 30px;
+}
+
+.grid_txt_section1 > h2{
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 45px;
+    color: #024959;
+}
+
+.grid_txt_section1 > p{
+    font-size: 20px;
+    text-align: center;
+    color: #024959;
+}
+
+.segundoP{
+    font-weight: bold;
+}
+
+.grid_btns_section1{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn1_section1{
+    background-color: #024959;
+    width: 230px;
+    height: 50px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.btn2_section1{
+    border: 2px solid #024959;
+    width: 230px;
+    height: 50px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #024959;
+}
+
+.section2{
+    width: 100%;
+    height: 570px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #58878C;
+}
+
+.grid_section2{
+    width: 50%;
+    height: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.grid_section2 > h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 45px;
+    color: #F2E4D8;
+}
+
+.grid_section2 > p{
+    font-size: 22px;
+    text-align: center;
+    color: #F2E4D8;
+}
+
+.section3{
+    width: 100%;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid_section3{
+    width: 90%;
+    height: 80%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+}
+
+.grid_section3 > h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.grid_card{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
