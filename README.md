@@ -1,4 +1,3 @@
-
 ![logo_com_fundo](https://github.com/Pedrofelip/Global-Solution-DermaScan/assets/73732845/855123b6-69cf-4cbe-8a90-d9a09620588b)
 
 <h1 align="center">Derma Scan</h1>
