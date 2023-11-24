@@ -9,7 +9,6 @@ export default function CardResultado(props : any) {
                 <p><b>resultado:</b> {props.resultado}</p>
                 <p><b>historico:</b> {props.historico}</p>
                 <p><b>cidade:</b> {props.cidade}</p>
-                <p><b>resultado:</b> {props.idade}</p>
             </div>
         </article>
     )
