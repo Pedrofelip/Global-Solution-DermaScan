@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+![logo_com_fundo](https://github.com/Pedrofelip/Global-Solution-DermaScan/assets/73732845/855123b6-69cf-4cbe-8a90-d9a09620588b)
 
-## Getting Started
+<h1 align="center">Derma Scan</h1>
 
-First, run the development server:
+## Descrição do Projeto
+<p align="center">O Derma Scan é uma inovadora solução de saúde que utiliza inteligência artificial avançada para a detecção precoce de câncer de pele. Diante do desafio de moldar o futuro da saúde, nosso projeto se destaca ao integrar tecnologias emergentes, como análise de dados, inteligência artificial e automação, para promover a prevenção eficaz, tornar a assistência médica mais acessível e proporcionar diagnósticos precisos.</p>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+<h4 align="center"> 
+	🚧  React Select 🚀 Em finalização...  🚧
+</h4>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+##Como inicializar
+- Clone o repositorio do gitHub onde está nossa aplicação front-end
+- Após clonar o projeto em sua maquina, abra o terminal do git e execute o comando "npm install" para baixar todas as dependencias do projeto
+- Para rodar nossa aplicação de o comando "npm run dev"
+- Agora você tem o nosso projeto no ar e rodando localmente
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+  ##Expecificações do projeto
+  - Tela Home: uma landing-page com as informações do projeto para o usuario enteder sobre oq se trata nossa aplicação
+  - Tela de Consulta:  Onde o usuario irá fazer o envios das informações necessarios para realizar a consulta
+  - Tela de Resultado: A tela de resultado será onde o usuario vai poder visualizar todos os dados referentes a sua consulta e seu cadastro
+  - Tela de Cadastro de Usuario: A tela de cadastro é onde o usuario ira se cadastrar caso ainda não possua um cadastro dentro da nossa plataforma
+  - Tela de Login: Por ideia seria a tela que daria total acesso a nossa plataforma caso o login do usuario tenha sido um sucesso, porém ainda não implementamos a logica de login da nossa plataforma, então por isso demos acesso total aos nossos metodos e paginas mesmo sem que a pessoa esteja cadastrada, para que os testes das demais paginas possam ser realizados com sucesso
+ 
+    ##Como utilizar nossa plataforma
+ 
+  Nossa plataforma consome uma webApi que foi entregue na materia de JAVA dentro do portal do aluno da FIAP, então para testar a funcionalidade da nossa aplicação é necessario obter esses arquivos, suponhamos que você leitor já obtenha nossa Api Então os passos necessarios para rodar seriam:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+  - Rodar a Api de forma local, para que os endPoints possam ser consultados
+  - Verificar se o Cors da Api está permitindo a porta onde seu front está rodando
